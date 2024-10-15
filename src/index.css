@@ -1,0 +1,15 @@
+/* Ensures that all tabs, including the dropdown, are aligned in the same line */
+.nav-tabs {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.nav-item .dropdown-toggle {
+  display: inline-block;
+  margin: 0; /* Ensure no extra margins cause misalignment */
+}
+
+.nav-item button {
+  display: inline-block;
+  margin: 0;
+}
